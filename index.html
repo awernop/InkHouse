@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/Star 1.png">
+    <title>Ink. House</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="img/Star 1.png" alt="Логотип">
+                <p class="text-logo">Ink. House</p>
+            </div>
+            <nav>
+                <div class="nav">
+                    <a href="#reproduction" class="nav-link">Репродукции</a>
+                    <a href="#new" class="nav-link">Новинки</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#">
+                        <img src="img/shopping-cart.svg" alt="Корзина">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <!-- ТИТУЛЬНИК -->
+            <div class="box-1">
+                <img src="img/Layer 0 1.png" alt="Птица">
+            <div class="right">
+                <h1 class="title">
+                    Реплики картин от <b class="title-ink">Ink. House</b>
+                </h1>
+                <p class="title-text">Высокое качество отрисовки на плотной 
+                    бумаге или льняном холсте. Редкие произведения, 
+                    доступные цены.
+                </p>
+                <button class="btn btn-green">Продукция</button>
+            </div>
+            </div>
+            <!-- РЕПРОДУКЦИИ -->
+
+            <!-- ФРАНЦИЯ -->
+
+            <div class="box-2" id="reproduction">
+                <div class="line">
+                    <h2 class="line-text">Репродукции</h2>
+                    <div class="countres">
+                        <button class="btn2 active france" onclick="france()">Франция</button>
+                        <button class="btn2 german" onclick="german()">Германия</button>
+                        <button class="btn2 england" onclick="england()">Англия</button>
+                    </div>
+                </div>
+                <div class="elements elems-franc">
+                    <div class="obj">
+                        <img src="img/03.jpg" alt="Охота Амура">
+                        <p class="author-txt">Марсель Руссо</p>
+                        <p class="name-txt">Охота Амура</p>
+                        <p class="about-txt">Холст, масло (50х80)</p>
+                        <p class="price-txt">14 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/ladywdog.jpg" alt="Охота Амура">
+                        <p class="author-txt">Анри Селин</p>
+                        <p class="name-txt">Дама с собачкой</p>
+                        <p class="about-txt">Акрил, бумага (50х80)</p>
+                        <p class="price-txt">16 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/procedura.jpg" alt="Охота Амура">
+                        <p class="author-txt">Франсуа Дюпон</p>
+                        <p class="name-txt">Процедура</p>
+                        <p class="about-txt">Цветная литография (40х60)</p>
+                        <p class="price-txt">20 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/rose.jpg" alt="Охота Амура">
+                        <p class="author-txt">Луи Детуш</p>
+                        <p class="name-txt">Роза</p>
+                        <p class="about-txt">Бумага, акрил (50х80)</p>
+                        <p class="price-txt">12 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/birds.jpg" alt="Охота Амура">
+                        <p class="author-txt">Франсуа Дюпон</p>
+                        <p class="name-txt">Птичья трапеза</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">22 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/fish.jpg" alt="Охота Амура">
+                        <p class="author-txt">Пьер Моранж</p>
+                        <p class="name-txt">Пейзаж с рыбой</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">20 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+                </div>
+                
+                <!-- ГЕРМАНИЯ -->
+                
+                <div class="elements elems-germ none">
+                    <div class="obj">
+                        <img src="img/city.jpg" alt="Охота Амура">
+                        <p class="author-txt">Курт Вернер</p>
+                        <p class="name-txt">Над городом</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">16 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/babybirds.jpg" alt="Охота Амура">
+                        <p class="author-txt">Макс Рихтер</p>
+                        <p class="name-txt">Птенцы</p>
+                        <p class="about-txt">Холст, масло (50х80)</p>
+                        <p class="price-txt">14 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/beetwen.jpg" alt="Охота Амура">
+                        <p class="author-txt">Мартин Майер</p>
+                        <p class="name-txt">Среди листьев</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">20 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/colorful.jpg" alt="Охота Амура">
+                        <p class="author-txt">Герман Беккер</p>
+                        <p class="name-txt">Яркая птица</p>
+                        <p class="about-txt">Цветная литография (40х60)</p>
+                        <p class="price-txt">13 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/dadli.jpg" alt="Охота Амура">
+                        <p class="author-txt">Вульф Бауэр</p>
+                        <p class="name-txt">Дятлы</p>
+                        <p class="about-txt">Бумага, акрил (50х80) </p>
+                        <p class="price-txt">20 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/morewater.jpg" alt="Охота Амура">
+                        <p class="author-txt">Вальтер Хартманн</p>
+                        <p class="name-txt">Большие воды</p>
+                        <p class="about-txt">Бумага, акрил (50х80) </p>
+                        <p class="price-txt">23 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+                </div>
+
+                <!-- АНГЛИЯ -->
+
+                <div class="elements elems-eng none">
+                    <div class="obj">
+                        <img src="img/moo.jpg" alt="Охота Амура">
+                        <p class="author-txt">Пол Смит</p>
+                        <p class="name-txt">Дикий зверь</p>
+                        <p class="about-txt">Акварель, бумага (50х80) </p>
+                        <p class="price-txt">19 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/bereg.jpg" alt="Охота Амура">
+                        <p class="author-txt">Джон Уайт</p>
+                        <p class="name-txt">Скалистый берег</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">17 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/river.jpg" alt="Охота Амура">
+                        <p class="author-txt">Джим Уотсон</p>
+                        <p class="name-txt">Река и горы</p>
+                        <p class="about-txt">Акварель, бумага (50х80) </p>
+                        <p class="price-txt">20 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/popug.jpg" alt="Охота Амура">
+                        <p class="author-txt">Юджин Зиллион</p>
+                        <p class="name-txt">Белый попугай</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">15 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/colorfulfish.jpg" alt="Охота Амура">
+                        <p class="author-txt">Эрик Гиллман</p>
+                        <p class="name-txt">Ночная рыба</p>
+                        <p class="about-txt">Бумага, акрил (50х80) </p>
+                        <p class="price-txt">12 500 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+
+                    <div class="obj">
+                        <img src="img/cat.jpg" alt="Охота Амура">
+                        <p class="author-txt">Альфред Барр</p>
+                        <p class="name-txt">Рыжий кот</p>
+                        <p class="about-txt">Цветная литография (40х60) </p>
+                        <p class="price-txt">21 000 руб</p>
+                        <button class="btn btn-green" style="width: 310px;">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <!-- НОВИНКИ -->
+            <div class="new" id="new">
+                <div class="new-txt">
+                    <div class="new-title">
+                        <img src="img/Star 2.png" alt="Логотип">
+                        <h2 class="new-title-txt">Новая коллекция французских авторов</h2>
+                    </div>
+                    <p class="new-paragraph">
+                        Сложно сказать, почему акционеры крупнейших компаний 
+                        призывают нас к новым свершениям, которые, в свою очередь, 
+                        должны быть заблокированы в рамках своих собственных рациональных 
+                        ограничений. 
+                        <br>
+                        <br>
+                        Принимая во внимание показатели успешности, граница 
+                        обучения кадров предопределяет высокую востребованность 
+                        направлений прогрессивного развития.
+                    </p>
+                    <button class="btn btn-yellow">Ознакомиться</button>
+                </div>
+            </div>
+            <!-- КОМАНДА -->
+            <div class="team" id="about">
+                <img src="img/team.png" alt="Рамка с кисточкой">
+                <div class="team-right">
+                    <p class="our-team">Наша команда</p>
+                    <p class="team-description">
+                        Значимость этих проблем настолько очевидна, что 
+                        базовый вектор развития позволяет оценить значение 
+                        экспериментов, поражающих по своей масштабности и 
+                        грандиозности. Мы вынуждены отталкиваться от того, 
+                        что консультация с широким активом.
+                    </p>
+                    <div class="team-faces">
+                        <img src="img/Ellipse 30.jpg" alt="">
+                        <img src="img/Ellipse 31.jpg" alt="">
+                        <img src="img/Ellipse 32.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="f-div-1">
+                <div class="logo">
+                    <img src="img/Star 1.png" alt="Логотип">
+                    <p class="text-logo">Ink. House</p>
+                </div>
+                <p class="f-number">+7 (999) 543-54-54</p>
+                <p class="f-desk">Мастерская</p>
+            </div>
+            <div class="f-nav-div">
+                <div class="f-div-2">
+                    <p class="f-txt">Репродукции</p>
+                    <p class="f-country">Франция</p>
+                    <p class="f-country">Германия</p>
+                    <p class="f-country">Англия</p>
+                </div>
+                <div class="f-div-2">
+                    <p class="f-txt">Новинки</p>
+                    <p class="f-country">2020</p>
+                    <p class="f-country">2021</p>
+                </div>
+                <div class="f-div-2">
+                    <p class="f-txt">О нас</p>
+                    <p class="f-country">Художники</p>
+                    <p class="f-country">Менеджеры</p>
+                </div>
+            </div>
+            <div class="f-div-5">
+                <div class="snc">
+                    <img src="img/facebook.svg" alt="Фейсбук">
+                    <img src="img/instagram.svg" alt="Инсаграм">
+                    <img src="img/youtube.svg" alt="Ютуб">
+                </div>
+                <p class="f-desc-txt">Ink. House ®</p>
+                <p class="f-desc-txt">All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
